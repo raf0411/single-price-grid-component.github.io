@@ -146,7 +146,7 @@ body {
   }
 
   .container{
-    max-width: 50rem;
+    max-width: 40rem;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
     "first first"
