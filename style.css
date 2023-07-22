@@ -2,6 +2,7 @@
   --clr-cyan: hsl(179, 62%, 43%);
   --clr-lighter-cyan: hsl(179, 47%, 52%);
   --clr-bright-yellow: hsl(71, 73%, 54%);
+  --clr-darker-bright-yellow: hsla(71, 73%, 54%, 0.8);
   --clr-light-gray: hsl(204, 43%, 93%);
   --clr-grayish-blue: hsl(218, 22%, 67%);
 
@@ -112,6 +113,12 @@ body {
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px 1px;
   margin-top: 1rem;
+  transition: 0.3s;
+  font-weight: var(--fw-bold);
+}
+
+.second-box .button:hover{
+  background-color: var(--clr-darker-bright-yellow);
 }
 
 .third-box{
